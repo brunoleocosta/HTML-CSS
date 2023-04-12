@@ -13,6 +13,7 @@
         table {
            width: 500px; 
            border-collapse: collapse;
+           position: relative;
         }
 
         td, th {
@@ -38,6 +39,12 @@
         }
 
         thead {
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
             background-color: lightgray;
         }
 
