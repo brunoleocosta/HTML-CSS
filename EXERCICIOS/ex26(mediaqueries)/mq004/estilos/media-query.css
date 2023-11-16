@@ -17,9 +17,9 @@ Grandes telas(tv) 1201px and above
 
 }
 
-@media screen and (min-width 481px) and (max-width 768px) {
+@media screen (max-width 768px) {
     body {
-        background-image: url(../imagens/back-tablet.jpg);
+        background-color: red;
     }
 
 }
