@@ -17,18 +17,17 @@ Grandes telas(tv) 1201px and above
 
 }
 
-@media screen (max-width 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     body {
-        background-color: red;
+        background-image: url(../imagens/back-tablet.jpg);
     }
 
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
 }
-
-img#phone { display: block;}
-img#tablet { display: none;}
-img#print { display: none;}
-img#pc { display: none;}
-img#tv { display: none;}
 
 @media screen and (min-width 769px) and (max-width 1024px) {
 
